@@ -1,0 +1,16 @@
+package com.example;
+
+public class Ejercicio3 {
+
+    public static void main(String[] args) {
+
+        String familia = " ";
+        String[] familiar = {"Jose", "Bienvenida", "Laura", "Patri", "Gael"};
+        for (int i = 0; i < familiar.length; i++) {
+            familia = familia + familiar[i] + " ";
+            System.out.println(familia);
+        }
+
+
+    }
+}
